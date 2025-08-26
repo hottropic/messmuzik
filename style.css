@@ -39,7 +39,7 @@ body {
     font-family: "Times-New-Roman";
 }
 body{
-    background-image: url(files/mm_texture.PNG);
+    background-image: url(mm_texture.PNG);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
