@@ -1,0 +1,108 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 900px;
+    max-width: 90vw;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+svg{
+    width: 30px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.listProduct .item img{
+    width: 90%;
+    filter: drop-shadow(0 50px 20px #0009);
+    position: relative;
+}
+.listProduct .item button{
+    background-color: #ffffff;
+    color: #eee;
+    padding: 25px 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+body {
+    height: 100vh;
+    font-family: "Times-New-Roman";
+}
+body{
+    background-image: url(files/mm_texture.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.brand img{
+    width: 88px;
+    padding: 0 8px;
+    cursor: pointer;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 4rem;
+}
+.egg {
+    justify-content: center;
+    display: flex;
+    width: 500px;
+    margin-top: 40px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.egg img{
+    width: 500px;
+    display: flex;
+}
+.top-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 0.7s ease;
+}
+.top-img:hover{
+    opacity: 1;
+}
+ul {
+    white-space: nowrap;
+}
+ul, li {
+    list-style: column;
+    display: inline;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+body {
+    background-color: #f9f9f9;
+    font: normal 1em / 1.5em BlinkMacSystemFont, -apple-system, 'Segoe UI', roboto, helvetica, arial, sans-serif;
+ }
+h1 {
+    font-size: 1.5em;
+    color: #555;
+    text-align: center;
+ }
+audio {
+    display:block;
+    margin: auto;
+ }
